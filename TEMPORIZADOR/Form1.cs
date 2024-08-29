@@ -27,15 +27,17 @@ namespace TEMPORIZADOR
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            textBox1.MaxLength = 4;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             if (textBox1.Text.Length >0)
             {
+               
                 pictureBox1.Visible = false;
                 tempo = Convert.ToInt16(textBox1.Text);
+
                 if (tempo >= 60)
                 {
 
@@ -47,7 +49,8 @@ namespace TEMPORIZADOR
                     minuto = 0;
                     segundo = tempo;
                 }
-                label1.Text = minuto.ToString().PadLeft(2, '0') + ":" + segundo.ToString().PadLeft(2, '0');
+                label1.Text = horas.ToString().PadLeft(2, '0') + ":" + minuto.ToString().PadLeft(2, '0') + ":" + segundo.ToString().PadLeft(2, '0');
+                timer2.Enabled = false;
                 timer1.Enabled = true;
                 button7.Text = "PAUSE";
 
@@ -55,7 +58,7 @@ namespace TEMPORIZADOR
             }
             else
             {
-                MessageBox.Show("Entre com um digito" );
+                MessageBox.Show("Entre no maximo com quatro digitos inteiros XD !!!" );
             }
         }
 
@@ -123,9 +126,25 @@ namespace TEMPORIZADOR
 
         private void button6_Click(object sender, EventArgs e)
         {
+            if (timer1.Enabled == false)
+            {
+                pictureBox1.Visible = false;
+               
+               
+                button7.Text = "PAUSE";
+                textBox1.Text = "";
+                label1.Text = "00:00:00";
+                segundo = 0;
+                minuto = 0;
+                horas = 0;
 
-            pictureBox1.Visible = false;
-            timer2.Enabled = true;
+                timer1.Enabled = false;
+                timer2.Enabled = true;
+            }
+            else
+            {
+                MessageBox.Show("Pare o Cronometro para usar o Temporizador !!!");
+            }
 
         }
 
