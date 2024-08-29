@@ -1,0 +1,10 @@
+C:\Users\sanmg\source\repos\TEMPORIZADOR\obj\Debug\TEMPORIZADOR.csproj.AssemblyReference.cache
+C:\Users\sanmg\source\repos\TEMPORIZADOR\obj\Debug\TEMPORIZADOR.Form1.resources
+C:\Users\sanmg\source\repos\TEMPORIZADOR\obj\Debug\TEMPORIZADOR.Properties.Resources.resources
+C:\Users\sanmg\source\repos\TEMPORIZADOR\obj\Debug\TEMPORIZADOR.csproj.GenerateResource.cache
+C:\Users\sanmg\source\repos\TEMPORIZADOR\obj\Debug\TEMPORIZADOR.csproj.CoreCompileInputs.cache
+C:\Users\sanmg\source\repos\TEMPORIZADOR\bin\Debug\TEMPORIZADOR.exe.config
+C:\Users\sanmg\source\repos\TEMPORIZADOR\bin\Debug\TEMPORIZADOR.exe
+C:\Users\sanmg\source\repos\TEMPORIZADOR\bin\Debug\TEMPORIZADOR.pdb
+C:\Users\sanmg\source\repos\TEMPORIZADOR\obj\Debug\TEMPORIZADOR.exe
+C:\Users\sanmg\source\repos\TEMPORIZADOR\obj\Debug\TEMPORIZADOR.pdb
